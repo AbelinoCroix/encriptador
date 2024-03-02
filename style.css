@@ -1,3 +1,7 @@
+html, .textoOrigen{
+    background-color: #F3F5FC;
+}
+
 .logo{
     width: 120px;
     height: 48px;
@@ -12,4 +16,28 @@
     position: absolute;
     top: 168px;
     left: 240px;
+    border-style: none;
+    font-family: "Inter", sans-serif;
+    font-weight: 400;
+    font-size: 32px;
+    color: #0A3871;
+}
+
+.textoEncriptado{
+    width: 400px;
+    height: 944px;
+    position: absolute;
+    top: 40px;
+    left: 1000px;
+    border-radius: 32px;
+    background-color: #FFFFFF;
+    display: block;
+}
+
+.imgNoTexto{
+    width: 336px;
+    height: 304px;
+    position: absolute;
+    top: 283px;
+    left: 1032px;
 }
