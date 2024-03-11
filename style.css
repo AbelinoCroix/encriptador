@@ -82,3 +82,69 @@ main{
     line-height: 24px;
     text-align: center;
 }
+
+.cajaResultado{
+    width: 336px;
+    height: 781px;
+    position: absolute;
+    top: 72px;
+    left: 1032px;
+}
+
+.txtResultado{
+    font-family: 'Inter', sans-serif;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 36px;
+    color: #495057;
+}
+
+.btnCopiar{
+    width: 336px;
+    height: 67px;
+    position: absolute;
+    top: 885px;
+    left: 1032px;
+    border-radius: 24px;
+    padding: 24px;
+    background-color: #FFFFFF;
+    color: #0A3871;
+    border-width: 1px;
+    border-color: #0A3871;
+}
+
+.cajaBotones{
+    width: 680px;
+    height: 67px;
+    position: absolute;
+    top: 885px;
+    left: 240px;
+}
+
+.btnEncriptar{
+    width: 328px;
+    height: 67px;
+    border-radius: 24px;
+    padding: 24px;
+    background-color: #0A3871;
+    color: #FFFFFF;
+}
+
+.btnDesencriptar{
+    width: 328px;
+    height: 67px;
+    border-radius: 24px;
+    padding: 24px;
+    background-color: #D8DFE8;
+    color: #0A3871;
+    border-width: 1px;
+    border-color: #0A3871;
+}
+
+.btnEncriptar, .btnDesencriptar, .btnCopiar:hover{
+    cursor: pointer;
+}
+
+.Esconder{
+    display: none;
+}
